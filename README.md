@@ -18,8 +18,6 @@ To get started with this project, follow these steps:
 * [Results](#results)
 * [Conclusion](#conclusion)
 * [Future Work](#future-work)
-* [Getting Started](#getting-started)
-* [License](#license)
 
 ## Introduction
 
