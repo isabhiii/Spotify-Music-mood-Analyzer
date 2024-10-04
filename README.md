@@ -1,5 +1,5 @@
 # Spotify-Music-mood-Analyzer
-Objective: A machine learning project that predicts a user's mood based on their Spotify listening history.
+**Objective:** A machine learning project that predicts a user's mood based on their Spotify listening history.
 
 ## Getting Started
 
