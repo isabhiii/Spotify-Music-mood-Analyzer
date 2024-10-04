@@ -1,9 +1,13 @@
 # Spotify-Music-mood-Analyzer
-Objective: Build a model that can analyze audio features of a song and predict the mood or emotions it evokes.
+Objective: A machine learning project that predicts a user's mood based on their Spotify listening history.
 
-# Music Mood Analyzer
+## Getting Started
 
-A machine learning project that predicts a user's mood based on their Spotify listening history.
+To get started with this project, follow these steps:
+
+1. **Clone the repository:** Clone the repository using `git clone https://github.com/your-username/music-mood-analyzer.git`.
+2. **Install the dependencies:** Install the dependencies using `pip install -r requirements.txt`.
+3. **Run the code:** Run the code using `python main.py`.
 
 ## Table of Contents
 
@@ -61,10 +65,4 @@ Future work on this project could include:
 * **Collecting more data:** Collecting more data on the user's listening habits and mood labels to improve the accuracy of the model.
 * **Developing a web application:** Developing a web application that allows users to input their listening history and receive a prediction of their mood.
 
-## Getting Started
 
-To get started with this project, follow these steps:
-
-1. **Clone the repository:** Clone the repository using `git clone https://github.com/your-username/music-mood-analyzer.git`.
-2. **Install the dependencies:** Install the dependencies using `pip install -r requirements.txt`.
-3. **Run the code:** Run the code using `python main.py`.
