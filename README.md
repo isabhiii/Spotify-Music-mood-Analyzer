@@ -1,58 +1,66 @@
-# Spotify-Music-mood-Analyzer
-**Objective:** A machine learning project that predicts a user's mood based on their Spotify listening history.
+# Spotify Music Mood Analyzer
+
+A machine learning project that predicts a user's mood based on their Spotify listening history and song audio features.
 
 ## Table of Contents
 
-* [Introduction](#introduction)
-* [Dataset](#dataset)
-* [Features](#features)
-* [Model](#model)
-* [Results](#results)
-* [Conclusion](#conclusion)
-* [Future Work](#future-work)
+- [Overview](#overview)
+- [Features](#features)
+- [Dataset](#dataset)
+- [Model](#model)
+- [Results](#results)
+- [Usage](#usage)
+- [Future Work](#future-work)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Introduction
+## Overview
 
-This project aims to predict a user's mood based on their Spotify listening history. We collect data on the user's listening habits, including the songs they listen to, the genres of music they prefer, and the time of day they listen to music. We then use a machine learning model to predict the user's mood based on this data.
-
-## Dataset
-
-The dataset used in this project consists of a user's Spotify listening history, including:
-
-* **Song metadata:** The title, artist, and genre of each song listened to.
-* **Listening habits:** The time of day and duration of each listening session.
-* **Mood labels:** A manual label of the user's mood for each listening session, using a scale of 1-5, where 1 is "sad" and 5 is "happy".
+Spotify Music Mood Analyzer leverages machine learning to analyze a user's Spotify listening habits and predict the mood or emotions evoked by the songs they listen to. By examining song metadata, audio features, and listening patterns, the project aims to provide insights into how music impacts mood.
 
 ## Features
 
-The features used in this project include:
+- Collects and processes Spotify listening history
+- Extracts song metadata and audio features (title, artist, genre, etc.)
+- Analyzes listening habits (time of day, duration)
+- Uses a Random Forest classifier to predict user mood on a 1-5 scale (1 = sad, 5 = happy)
+- Achieves high accuracy, precision, and recall on test data
 
-* **Song features:** The title, artist, and genre of each song listened to.
-* **Listening habit features:** The time of day and duration of each listening session.
-* **Mood features:** The manual label of the user's mood for each listening session.
+## Dataset
+
+The dataset includes:
+
+- **Song Metadata:** Title, artist, and genre for each song
+- **Listening Habits:** Time of day and duration for each session
+- **Mood Labels:** Manual mood rating for each session (1-5 scale)
 
 ## Model
 
-The model used in this project is a Random Forest classifier, which is suitable for classification tasks and can handle high-dimensional data.
+A Random Forest classifier is used due to its robustness for classification tasks and ability to handle high-dimensional data. The model is trained on extracted features and mood labels to predict user mood based on new listening data.
 
 ## Results
 
-The results of this project include:
+- **Accuracy:** 85% on the test set
+- **Precision:** 80%
+- **Recall:** 90%
 
-* **Accuracy:** 85% accuracy on the testing dataset.
-* **Precision:** 80% precision on the testing dataset.
-* **Recall:** 90% recall on the testing dataset.
+## Usage
 
-## Conclusion
-
-This project demonstrates the effectiveness of using machine learning to predict a user's mood based on their Spotify listening history. The results show that the model is able to accurately predict the user's mood with high accuracy.
+1. Clone the repository:
+   ```
+   git clone https://github.com/isabhiii/Spotify-Music-mood-Analyzer.git
+   cd Spotify-Music-mood-Analyzer
+   ```
+2. Prepare your Spotify listening history data following the dataset format described above.
+3. Run the Jupyter notebooks (`Clustering_Spotify_Songs.ipynb`, `Spotify Songs Clustering.ipynb`) to preprocess data, train the model, and evaluate results.
+4. (Optional) Use `getPlaylistData.py` to extract playlist data from Spotify.
 
 ## Future Work
 
-Future work on this project could include:
+- Improve model performance with advanced techniques (e.g., deep learning)
+- Expand the dataset with more users and mood labels
+- Develop a web application for interactive mood prediction
 
-* **Improving the model:** Using more advanced machine learning techniques, such as deep learning, to improve the accuracy of the model.
-* **Collecting more data:** Collecting more data on the user's listening habits and mood labels to improve the accuracy of the model.
-* **Developing a web application:** Developing a web application that allows users to input their listening history and receive a prediction of their mood.
+## Contributing
 
-
+Contributions are welcome! Please open issues or submit pull requests to help improve the project.
